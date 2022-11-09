@@ -12,8 +12,7 @@ app.use(express.urlencoded({extended: true}))
 
 app.use('/users', users)
 app.use('/curse', curse)
+
 app.listen(port, () => {
     console.log('Pode comemorar! Server Rodando!')
 })
-
-
